@@ -1,0 +1,85 @@
+
+/*搜索框begin*/
+#searchDIV{
+	width: 450px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#searchInput{
+	border-radius: 3px;
+	width: 200px;
+}
+
+
+
+#searchBtn{
+	margin-left: 10px;
+}
+/*搜索框end*/
+
+/*内容表格begin*/
+.table  tr > th:nth-child(1), 
+.table  tr > td:nth-child(1){		/*表格的第1列宽度*/
+	width: 10%;	
+}
+.table  tr > th:nth-child(2), 
+.table  tr > td:nth-child(2){	/*表格第2列宽度*/
+	width: 15%;	
+}
+.table  tr > th:nth-child(3), 
+.table  tr > td:nth-child(3){	
+	width: 15%;	
+}
+.table  tr > th:nth-child(4), 
+.table  tr > td:nth-child(4){
+	width: 15%;	
+}
+.table  tr > th:nth-child(5), 
+.table  tr > td:nth-child(5){
+	width: 15%;	
+}
+.table  tr > th:nth-child(6), 
+.table  tr > td:nth-child(6){	
+	width: 15%;
+}
+
+
+#content{
+	margin-top: 30px;
+}
+
+.table tr input[type=checkbox]{	
+	width: 15px;
+	height: 15px;
+}
+
+.table > thead > tr > th{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.table > tbody > td{
+	height: 80px;
+	border: 0;
+	overflow: hidden; 
+}
+
+.table tbody td img{	/*表格中图片*/
+	width: 160px;
+	height: 80px;
+	margin:2px;
+}
+
+.table tbody td .btn{	/*表格里面的按钮*/`
+	margin: 0 5px;
+}
+/*内容表格end*/
+
+
+/*按钮*/
+#offShelfBtn{
+	float: right;
+	margin-right: 30px;
+	width: 100px;
+}

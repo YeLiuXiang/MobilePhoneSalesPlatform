@@ -1,0 +1,40 @@
+#content{
+	margin-top: 20px;
+}
+
+/*顶部搜索框begin*/
+#container .row .col-lg-6{
+	margin: 20px auto 0;
+	width: 35%;
+	float: none;
+}
+/*顶部搜索框end*/
+
+/*内容表格begin*/
+
+	/*设置表格列宽begin*/
+.table  tr > th:nth-child(1), 
+.table  tr > td:nth-child(1),
+.table  tr > th:nth-child(2), 
+.table  tr > td:nth-child(2),
+.table  tr > th:nth-child(3), 
+.table  tr > td:nth-child(3),
+.table  tr > th:nth-child(5), 
+.table  tr > td:nth-child(5){	
+	width: 15%;	/*表格的第1、2、3、5列宽度*/
+}
+
+.table  tr > th:nth-child(4), 
+.table  tr > td:nth-child(4),
+.table  tr > th:nth-child(7), 
+.table  tr > td:nth-child(7){
+	width: 10%;	/*表格第4、7列宽度*/
+}
+
+.table  tr > th:nth-child(6), 
+.table  tr > td:nth-child(6){
+	width: 20%;	/*表格第6列宽度*/
+}
+	/*设置表格列宽end*/
+	
+/*内容表格end*/

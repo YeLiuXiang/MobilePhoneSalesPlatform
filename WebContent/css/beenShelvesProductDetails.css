@@ -1,0 +1,37 @@
+#container{
+	/*width: 400px;*/
+	/*height: 175px;*/
+	border: 5px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	position: absolute;
+	top: 35%;
+	left: 35%;
+	/*margin-left: -200px;*/
+	/*margin-top: -100px;*/
+}
+
+/*.table th{
+	width: 75px;
+}*/
+
+nav *{
+	display: inline-block;
+}
+
+nav div{
+	/*display: inline-block;*/
+	width: 150px;
+	border-bottom: 1px solid black;
+	margin: 10px;
+}
+
+nav .title,
+nav .data{
+	/*display: inline-block;*/
+	margin-left: 1em;
+}
+
+/*#container nav:nth-child(4) .data{
+	margin-left: 0;
+}*/

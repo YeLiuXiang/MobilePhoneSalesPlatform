@@ -1,0 +1,83 @@
+#container{
+	margin: 0 auto;
+	height: auto;
+	width: 750px;
+	border: 5px solid black;
+	border-radius: 5px;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	/*margin-top: -225px;*/
+	/*margin-top: 50%;*/
+	margin-left: -375px;
+	background-color: rgba(218,218,218,0.2);
+}
+
+/*表单begin*/
+.navbar-form{
+	width: 100%;
+	margin: 10px 0;
+}
+
+/*.navbar-form input[type="file"]{
+	width: 200px;
+	display: inline-block;
+}*/
+
+.navbar-form .form-group{
+	margin: 10px 0;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+/*.navbar-form .form-group:nth-child(5){
+	margin-left: 27px;
+}*/
+
+.navbar-form .form-group .form-control,
+.navbar-form .form-group .form-control,
+.navbar-form .form-group .form-control{
+	width: 120px;
+	margin-right: 15px;
+}
+
+/*表格begin*/
+.table{
+	margin-top: 15px;
+}
+
+.table tbody td{
+	width: 33.3%;
+	padding: 0;
+}
+
+.table tbody td input[type="text"]{
+	width: 80px;
+	/*text-align: center;*/
+	vertical-align: middle;
+	border-radius: 3px;
+	border: 1px solid rgb(221,221,221);
+}
+
+/*表格end*/
+
+/*按钮begin*/
+.navbar-form .btnDiv{
+	margin: 15px auto 10px;
+	width: 300px;
+}
+
+.navbar-form .btnDiv input{
+	width: 100px;
+	margin: 0 15px;
+	background-color: black;
+	color: white;
+}
+
+.navbar-form .btnDiv input:hover{
+	background-color: darkgrey;
+	color: black;
+}
+/*按钮end*/
+
+/*表单end*/

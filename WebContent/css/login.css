@@ -1,0 +1,105 @@
+/*#loginDiv{
+	background-color: rgba(89,98,110,0.15);
+	width: 400px;
+	height: 500px;
+	border: 1px solid white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -250px;
+	margin-left: -200px;
+}
+
+#logo{
+	width: 150px;
+	margin: 30px auto;
+}
+
+#loginForm{
+	width: 300px;
+	height:290px;
+	margin: 0 auto;
+}
+
+#loginForm input{
+	width: 100%;
+}
+
+#loginForm > div{
+	margin-top: 30px;
+}
+
+#loginForm #login{
+	position: relative;
+	top: 40px;
+}*/
+
+
+#loginDiv{
+	background-color: rgba(204,204,204,0.3);
+	width: 400px;
+	height: 450px;
+	border: 1px solid rgba(204,204,204,1);
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -250px;
+	margin-left: -200px;
+}
+
+/*logo begin*/
+#logoDiv{
+	width: 233px;
+	height: 86px;
+	margin: 35px auto 25px;
+} 
+/*logo end*/
+
+/*表格begin*/
+#loginDiv .navbar-form{
+	width: 100%;
+}
+
+#loginDiv .navbar-form .form-group{
+	margin: 20px auto;
+	display: block;
+	width: 260px;
+}
+
+.navbar-form .form-group:nth-child(1) .form-control,
+.navbar-form .form-group:nth-child(2) .form-control{
+	width: 200px;
+	margin-left: 13px;
+}
+
+.navbar-form .form-group:nth-child(3) .form-control{
+	width: 100px;
+}
+
+.navbar-form .form-group:nth-child(3) #verificationCodeDiv{	/*验证码div*/
+	width: 80px;
+	height: 30px;
+	margin-left: 10px;
+	display: inline-block;
+	/*border: 1px solid rgba(204,204,204,0.8);*/
+	vertical-align: middle;
+	/*position: relative;
+	top: 11px;*/
+}
+
+.navbar-form .form-group:nth-child(3) #verificationCode{	/*验证码img*/
+	height: 100%;
+	width: auto;
+	max-width: 80px;
+	margin: 0 auto;
+	display: block;
+}
+
+.navbar-form input.btn{
+	width: 250px;
+	display: block;
+	margin: 40px auto 0;
+}
+
+/*表格end*/

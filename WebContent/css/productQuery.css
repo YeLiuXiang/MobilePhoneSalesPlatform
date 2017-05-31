@@ -1,0 +1,169 @@
+
+/*搜索框begin*/
+#searchDIV{
+	width: 350px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#searchInput{
+	width: 220px;
+}
+
+#searchBtn{
+	margin-left: 10px;
+}
+/*搜索框end*/
+
+/*内容表格begin*/
+#content{
+	margin-top: 20px;
+}
+
+#content > table > tbody td .btn{	/*表格里面的按钮*/`
+	display: block;
+	margin: 0 5px;
+}
+
+.table > thead > tr > th{
+	text-align: center;
+}
+
+/*.table > thead > tr > th,
+.table > tbody > tr > th, 
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td, 
+.table > tfoot > tr > td{
+	vertical-align: middle !important;
+}*/
+
+.table tbody td img{
+	width: 200px;
+	height: 70px;
+	/*margin:10px;*/
+}
+
+table tr span{
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*table td span{
+	height: 100px;
+	line-height: 100px;
+}*/
+
+/*table td p{
+	text-align: center;
+	vertical-align: middle;
+	height: 100px;
+}*/
+
+/*table tr{
+	height: 100px;
+	line-height: 100px;
+}*/
+
+#content tr > th:nth-child(1), 
+#content tr > td:nth-child(1){	
+	width: 5%;	/*表格的第1列宽度*/
+}
+#content tr > th:nth-child(2), 
+#content tr > td:nth-child(2){
+	width: 25%;	/*表格第2列宽度*/
+}
+#content tr > th:nth-child(3), 
+#content tr > td:nth-child(3){
+	width: 15%;	/*表格的第3列宽度*/
+}
+#content tr > th:nth-child(4), 
+#content tr > td:nth-child(4){
+	width: 35%;	/*表格第4列宽度*/
+}
+#content tr > th:nth-child(5), 
+#content tr > td:nth-child(5){
+	width: 20%;	/*表格第5、6列宽度*/
+}
+
+/*内容表格end*/
+
+/*分页begin*/
+
+.pager{
+	margin: 0;
+	margin-left: 40%;
+	width: 200px;
+	display: inline-block;
+}
+
+nav .pager a{
+	margin-right: 10px;
+}
+
+.navbar-form{
+	margin: 0 100px 0 0;
+}
+
+.navbar-form .form-control{
+	width: 50px;
+}
+
+/*分页end*/
+
+/*编辑信息弹框begin*/
+/*#editMsg{
+	display: none;
+}*/
+
+#back{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(71,71,71,0.2);
+}
+
+#msgForm{
+	border: 5px solid green;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: rgba(255,255,255,0.95);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -175px;
+	width: 350px;
+	height: 400px;
+}
+
+#msgForm header h4{
+	/*margin: 0;*/
+	text-align: center;
+	padding: 0;
+}
+
+#msgForm .close{
+	position: relative;
+	top: -40px;
+}
+
+#msgForm > form{
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+#msgForm > form .form-group{
+	margin: 10px 0;
+}
+
+#msgForm > form .form-group:nth-child(1) input,
+#msgForm > form .form-group:nth-child(2) input,
+#msgForm > form .form-group:nth-child(3) input{
+	margin-left: 27px;
+}
+
+#msgForm > form .form-group input[type="text"]{
+	width: 200px;
+}
+/*编辑信息弹框end*/

@@ -1,0 +1,81 @@
+#container{
+	margin: 0 auto;
+	height: auto;
+	width: 900px;
+	border: 5px solid #c0c0c0;
+	border-radius: 5px;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	margin-left: -500px;
+	background-color: rgba(218,218,218,0.2);
+}
+#container .navbar-form .form-group{
+	margin: 10px auto;
+	margin-left:50px;
+	display: inline-block;
+
+}
+
+.navbar-form{
+	width: 100%;
+	margin: 10px 0;
+}
+.navbar-form .form-group:nth-child(1){
+	width: 300px;
+}
+.navbar-form .form-group:nth-child(2){
+	width: 400px;
+}
+.navbar-form .form-group:nth-child(5),
+.navbar-form .form-group:nth-child(6),
+.navbar-form .form-group:nth-child(7){
+	margin-right: 10px;
+	width: 220px;
+}
+
+.navbar-form .form-group:nth-child(1) .form-control,
+.navbar-form .form-group:nth-child(2) .form-control{
+		width: 200px;
+	margin-left: 13px;
+}
+
+.navbar-form .form-group:nth-child(5) .form-control,
+.navbar-form .form-group:nth-child(6) .form-control,
+.navbar-form .form-group:nth-child(7) .form-control{
+	width: 110px;
+}
+
+.navbar-form .image_container{	/*‘§¿¿Õº∫–◊”*/
+	width:850px; 
+	height:200px;
+	border: 1px solid gainsboro;
+	margin: 10px auto;
+}
+.navbar-form .image_container #preview{	/*‘§¿¿ÕºÕº∆¨*/
+	height: 100%;
+	width: auto;
+	max-width: 850px;
+	margin: 0 auto;
+	display: block;
+}
+
+.navbar-form .btnDiv{
+	margin: 15px auto 10px;
+	width: 300px;
+}
+
+.navbar-form .btnDiv input,
+.navbar-form .btnDiv button{
+	width: 100px;
+	margin: 0 15px;
+	background-color: black;
+	color: white;
+}
+
+.navbar-form .btnDiv input:hover,
+.navbar-form .btnDiv button:hover{
+	background-color: darkgrey;
+	color: black;
+}
+

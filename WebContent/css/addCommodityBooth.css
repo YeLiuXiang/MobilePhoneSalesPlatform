@@ -1,0 +1,66 @@
+#container{
+	margin: 0 auto;
+	height: 400px;
+	width: 350px;
+	border: 5px solid grey;
+	border-radius: 5px;
+	/*padding-top: 20px;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -225px;
+	margin-left: -175px;
+	background-color: rgba(218,218,218,0.2);
+}
+
+.navbar-form{
+	width: 100%;
+}
+
+.navbar-form .form-group{
+	display: block;
+	margin: 20px 0;
+}
+.navbar-form .form-group:nth-child(1){
+	padding-left: 25px;
+}
+.navbar-form .form-group:nth-child(2){
+	padding-left: 25px;
+}
+
+.navbar-form .form-group input{
+	width: 200px;
+}
+
+.navbar-form .form-group input[type="file"]{	/*input图片上传*/
+	margin-left: 20px;
+}
+
+.navbar-form .image_container{	/*预览图盒子*/
+	width:200px; 
+	height:150px;
+	border: 1px solid gainsboro;
+	margin: 30px auto;
+}
+
+.navbar-form .image_container #preview{	/*预览图图片*/
+	height: 100%;
+	width: auto;
+	max-width: 200px;
+	margin: 0 auto;
+	display: block;
+}
+
+.navbar-form .btnDiv{
+	width: 160px;
+	margin: 0 auto;
+}
+
+.navbar-form .btnDiv input{	/*确定和取消按钮*/
+	margin: 0 10px;
+	/*border: 1px solid rgba(102,153,204,1);*/
+	background: gray;
+	color: white;
+}
+
+

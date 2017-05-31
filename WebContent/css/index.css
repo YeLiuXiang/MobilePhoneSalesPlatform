@@ -1,0 +1,75 @@
+body{
+	font-family: "微软雅黑"; 
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+/*头部导航begin*/
+nav{
+	height: 60px;
+	width: 100%;
+}
+
+ul li a{
+	color: white;
+}
+
+ul li a:hover{
+	color: darkgrey;
+}
+
+.navbar-header img{
+	width: 150px; 
+	height: 60px;
+}
+
+#nav-ul ul{
+	margin-right: 30px;
+	margin-top: 13px;
+	list-style: none;
+	float: right;
+}
+
+#nav-ul ul li{
+	margin-right: 15px;
+	list-style: none;
+	float: left;
+}
+/*头部导航end*/
+
+#container{
+	height: 94%;
+	width: 100%;
+}
+
+/*左侧导航begin*/
+.panel-group > .panel a{
+	text-decoration: none;
+}
+
+#body-left{
+	margin-top: -20px;
+	/*width: 150px;
+	height: 723px;*/
+	border: 1px solid black;
+	width: 150px;
+	height: 100%;
+	background: #262626;	
+}
+
+#accordion div {
+	color: black;
+	margin-top: 2px;
+	padding: 3px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+#accordion div .panel-body:hover{
+	background: #66AFE9;
+	text-decoration: none;
+}
+
+/*左侧导航end*/
