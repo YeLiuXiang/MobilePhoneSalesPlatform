@@ -1,0 +1,42 @@
+body {
+	background-color: #eee;
+}
+
+
+
+#register_box {
+	background-color: #eee;
+	width: 450px;
+	height: 600px;
+	border: 1px solid rgba(89, 98, 110, 0.15);
+	margin-left: 40%;
+	margin-top: 8%;
+	margin-bottom: 12%;
+	text-align: center;
+}
+
+#logo {
+	margin: 25px 40px;
+}
+
+#registerForm {
+	width: 350px;
+	height: 290px;
+	margin: 0 auto;
+}
+
+#registerForm input {
+	width: 100%;
+}
+
+#registerForm>div {
+	margin-top: 30px;
+}
+
+#register_box #errText {
+	height: 20px;
+	text-align: center;
+	font-size: 10px;
+	color: red;
+}
+

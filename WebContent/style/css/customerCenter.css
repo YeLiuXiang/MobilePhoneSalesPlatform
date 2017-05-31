@@ -1,0 +1,32 @@
+body{
+	height: 100%;
+	background-color:#eee;
+}
+.col-sm-2{
+	position: absolute;
+	margin-left: 0px;
+	width: 200px;
+	border: 2px solid #D3D3D3;
+
+}
+.col-sm-10{
+	position: absolute;
+    margin-left: 200px;
+    width: 1080px;
+    height: 90%;
+}
+#information{
+	width: 90%;	
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.list-group-item{
+	background-color:	#E0E0E0;
+}
+
+#information a{
+	color: #0059b2;
+	text-align: center;
+	padding: 20px 0;
+}
+

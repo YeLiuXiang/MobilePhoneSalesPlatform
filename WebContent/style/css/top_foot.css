@@ -1,0 +1,18 @@
+.navLevel {
+	background-color: white;
+}
+
+a {
+	color: #000;
+	font-size: 18px;
+}
+
+.navbar-right {
+	margin-right: 20px;
+}
+
+#footer {
+	padding: 20px;
+	text-align: center;
+	background-color: #eee;
+}

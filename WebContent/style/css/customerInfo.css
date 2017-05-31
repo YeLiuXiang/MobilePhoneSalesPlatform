@@ -1,0 +1,50 @@
+body{
+	background-color:#eee;
+	height: 100%;
+}
+#headPotrait{
+	margin-left: 120px;
+	width: 20%;
+	float: left;
+}
+#headPotrait img{
+	width: 200px;
+	display: block;
+	margin-top: 120px;
+	
+}
+#customerInformation{
+	width: 50%;
+	margin-top: 100px;
+	margin-left: 100px;
+	float:left;
+}
+
+.form-horizontal .control-label{
+	width: 18%;
+	text-align: left;
+}
+#passwordCheck{
+	display: block;
+	float: left;
+}
+.btn-default{
+	margin-right: 20px;
+}
+#alter a{
+	color: black;
+	text-decoration: none;
+
+}
+#sexSelect{
+	height: 34px;
+	width: 80px;
+}
+
+#errText{
+	margin-top: 10px;
+	height: 20px;
+	padding-left: 60px;
+	font-size: 10px;
+	color: red;
+}
