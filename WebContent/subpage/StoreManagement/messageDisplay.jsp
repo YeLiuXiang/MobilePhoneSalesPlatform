@@ -28,7 +28,7 @@
 			  	<span>店铺主页图片：</span>
 			  	</div>
 			  	<div class="image_container ">
-			  		<img  id ="preview" src="${basePath}/imageFile/${requestScope.Object.imageAddress }">
+			  		<img  id ="preview" src="${basePath}/resource/${requestScope.Object.imageAddress }">
 			  	</div>
 			  	<div class="form-group">
 			  		<span>注册地址：</span>

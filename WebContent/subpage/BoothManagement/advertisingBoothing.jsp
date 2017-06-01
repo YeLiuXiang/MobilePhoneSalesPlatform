@@ -49,7 +49,7 @@
 							<!--第1行-->
 							<td class="text-center">${anno.advId }</td>
 							<td class="text-center">${anno.storeName }</td>
-							<td class="text-center"><img src="${basePath}/imageFile/${anno.imgAddr }" /></td>
+							<td class="text-center"><img src="${basePath}/resource/${anno.imgAddr }" /></td>
 							<td class="text-center">${anno.goodsId }</td>
 							<td class="text-center">${anno.status }</td>
 							<td class="text-center"><button onclick="Modify(${anno.advId})"	class="btn btn-danger btn-sm">替换</button></td>

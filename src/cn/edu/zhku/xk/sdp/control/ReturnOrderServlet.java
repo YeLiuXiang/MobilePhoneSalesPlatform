@@ -15,14 +15,13 @@ import cn.edu.zhku.xk.sdp.service.OrderService;
 import cn.edu.zhku.xk.sdp.service.ReturnOrderService;
 import cn.edu.zhku.xk.sdp.util.GlobalVariable;
 
-
+/**
+ * 
+ * @author “π¡Ùœ„
+ *ÕÀªªªıπ‹¿Ì
+ */
 @WebServlet("/ReturnOrderServlet")
 public class ReturnOrderServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
-       
-    public ReturnOrderServlet() {
-        super();
-    }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		

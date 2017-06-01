@@ -14,6 +14,11 @@ import javax.servlet.http.HttpServletResponse;
 import cn.edu.zhku.xk.sdp.service.OrderService;
 import cn.edu.zhku.xk.sdp.util.GlobalVariable;
 
+/**
+ * 
+ * @author “π¡Ùœ„
+ *∂©µ•π‹¿Ì
+ */
 @WebServlet("/OrderServlet")
 public class OrderServlet extends HttpServlet {
        

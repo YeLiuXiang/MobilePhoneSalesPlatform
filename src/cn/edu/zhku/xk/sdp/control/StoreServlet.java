@@ -13,11 +13,13 @@ import javax.servlet.http.HttpServletResponse;
 
 import cn.edu.zhku.xk.sdp.service.StoreService;
 
+/**
+ * 
+ * @author “π¡Ùœ„
+ *µÍ∆Ãπ‹¿Ì
+ */
 @WebServlet("/StoreServlet2")
 public class StoreServlet extends HttpServlet {
-       
-    public StoreServlet() {
-    }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		try {

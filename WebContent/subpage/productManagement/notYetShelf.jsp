@@ -57,7 +57,7 @@
 							<!--第1行-->
 							<td class="text-center">${goods.id }</td>
 							<td class="text-center"><img
-								src="${basePath}/imageFile/${goods.picture}" /></td>
+								src="${basePath}/resource/${goods.picture}" /></td>
 							<td class="text-center">${goods.name}</td>
 							<td class="text-center">${goods.status}</td>
 							<td class="text-center"><a

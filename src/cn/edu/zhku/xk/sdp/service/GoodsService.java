@@ -39,6 +39,13 @@ public class GoodsService {
 			return null;
 		}
 	}
+	/**
+	 * 根据商品编号或名称查询商品
+	 * @param searchType	查询类型
+	 * @param id2		编号
+	 * @param account		店主账号
+	 * @return		一个商品的信息
+	 */
 	public PageUtil GoodsQueryByIdOrName(int searchType,String id2, String account) {
 		// 宏定义 public static final
 		GoodsDao goodsDao = new GoodsDao();
@@ -53,6 +60,11 @@ public class GoodsService {
 		}
 		return result;
 	}
+	/**
+	 * 商品上架
+	 * @param id
+	 * @return
+	 */
 	public boolean GoodsUpShelf(int id) {
 		GoodsDao goodsDao = new GoodsDao();
 	 	boolean result = goodsDao.OrderStatusModify(id,GlobalVariable.GoodsUpShelf);
@@ -78,6 +90,11 @@ public class GoodsService {
 	GoodsIdModelIdStoreId goodsIdModelIdStoreId = 	goodsDao.GidMidSidQuery(account);
 		return goodsIdModelIdStoreId;
 	}
+	/**
+	 * 商品详情查询
+	 * @param id
+	 * @return
+	 */
 	public GoodsDetail GoodsDetailQuery(int id) {
 		GoodsDao goodsDao = new GoodsDao();
 		GoodsDetail goodsDetail = goodsDao.GoodsDetailQuery(id);

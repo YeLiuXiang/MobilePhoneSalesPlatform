@@ -48,7 +48,7 @@
 							<!--第1行-->
 							<td class="text-center">${anno.comId }</td>
 							<td class="text-center">${anno.storeName }</td>
-							<td class="text-center"><img src="${basePath}/imageFile/${anno.imgAddr }" /></td>
+							<td class="text-center"><img src="${basePath}/resource/${anno.imgAddr }" /></td>
 							<td class="text-center">${anno.goodsId }</td>
 								<td class="text-center">${anno.status }</td>
 							<td class="text-center"><button onclick="Agree(${anno.comId})"	class="btn btn-danger btn-sm">同意</button></td>

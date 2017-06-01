@@ -20,9 +20,13 @@ import com.jspsmart.upload.SmartUploadException;
 import cn.edu.zhku.xk.sdp.service.BoothService;
 import cn.edu.zhku.xk.sdp.service.StoreService;
 
+/**
+ * 
+ * @author 夜留香
+ *展位管理
+ */
 @WebServlet("/BoothsServlet")
 public class BoothsServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
        
     public BoothsServlet() {
     }
@@ -106,12 +110,12 @@ request.getRequestDispatcher("/subpage/BoothManagement/commodityBoothDisplay.jsp
 			if (imageFile.isMissing())
 				continue;
 			try {
-				imageFile.saveAs("F:/工作区间/java_eclipse_outfileEE/Moko_Management/WebContent/imageFile/" + fileName + "."+fileExtend, imageFile.SAVEAS_AUTO);
+				imageFile.saveAs("F:/工作区间/java_eclipse_outfileEE/Moko_Management/WebContent/resource/" + fileName + "."+fileExtend, imageFile.SAVEAS_AUTO);
 //				imageFile.saveAs("F:/Program Files/Apache Software Foundation/Tomcat 9.0/webapps/tt/reasouce/" + fileName + "."+fileExtend, imageFile.SAVEAS_AUTO);
 
 				String filePath = this.getServletConfig().getServletContext().getRealPath("/");
 				System.out.println(filePath);
-				imageFile.saveAs("/imageFile/" + fileName + "."+fileExtend, imageFile.SAVEAS_VIRTUAL);
+				imageFile.saveAs("/resource/" + fileName + "."+fileExtend, imageFile.SAVEAS_VIRTUAL);
 			} catch (SmartUploadException e) {
 				e.printStackTrace();
 			}

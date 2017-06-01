@@ -24,7 +24,11 @@ import cn.edu.zhku.xk.sdp.been.GoodsIdModelIdStoreId;
 import cn.edu.zhku.xk.sdp.service.GoodsService;
 import cn.edu.zhku.xk.sdp.util.GlobalVariable;
 
-
+/**
+ * 
+ * @author 夜留香
+ *商品管理
+ */
 @WebServlet("/GoodsServlet")
 public class GoodsServlet extends HttpServlet {
        
@@ -193,11 +197,11 @@ public class GoodsServlet extends HttpServlet {
 
 			try {
 				imageFile.saveAs(
-						"F:/工作区间/java_eclipse_outfileEE/Moko_Management/WebContent/imageFile/" + fileName + "." + fileExtend,
+						"F:/工作区间/java_eclipse_outfileEE/Moko_Management/WebContent/resource/" + fileName + "." + fileExtend,
 						imageFile.SAVEAS_AUTO);
 				String filePath = this.getServletConfig().getServletContext().getRealPath("/");
 				System.out.println(filePath);
-				imageFile.saveAs("/imageFile/" + fileName + "." + fileExtend, imageFile.SAVEAS_VIRTUAL);
+				imageFile.saveAs("/resource/" + fileName + "." + fileExtend, imageFile.SAVEAS_VIRTUAL);
 			} catch (SmartUploadException e) {
 				e.printStackTrace();
 			}

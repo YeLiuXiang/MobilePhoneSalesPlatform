@@ -22,7 +22,7 @@
 				<span>店铺主页图片预览：</span>
 				</div>
 				<div class="image_container ">
-				<img id ="preview" src="${basePath}/imageFile/${requestScope.Object.imageAddress}" />
+				<img id ="preview" src="${basePath}/resource/${requestScope.Object.imageAddress}" />
 					</div>
 			  	<div class="form-group">
 			  		<span>如需更改，请点击↓：</span>

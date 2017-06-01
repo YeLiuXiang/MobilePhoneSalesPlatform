@@ -15,6 +15,12 @@ import cn.edu.zhku.xk.sdp.util.DBCPUtil;
 import cn.edu.zhku.xk.sdp.util.GlobalVariable;
 
 public class BoothDao {
+	/**
+	 * 添加广告展位
+	 * @param imgAddr
+	 * @param linkGoodsId
+	 * @return
+	 */
 	public boolean AdvertingBoothAdd(String imgAddr, String linkGoodsId) {
 		Connection con = null;
 		PreparedStatement ps = null;
@@ -67,6 +73,11 @@ public class BoothDao {
 		DBCPUtil.close(rs, stm, con);
 		return false;
 	}
+	/**
+	 * 根据店主账号查询广告展位
+	 * @param account
+	 * @return
+	 */
 	public ArrayList AdvertingBoothQueryByAccount(String account) {
 		Connection con = null;
 		PreparedStatement ps = null;

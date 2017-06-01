@@ -49,7 +49,7 @@
 							</c:choose>
 							<!--第1行-->
 							<td class="text-center">${anno.advId }</td>
-							<td class="text-center"><img src="${basePath}/imageFile/${anno.imgAddr }" /></td>
+							<td class="text-center"><img src="${basePath}/resource/${anno.imgAddr }" /></td>
 							<td class="text-center">${anno.goodsId }</td>
 							<td class="text-center">${anno.status }</td>
 							<c:choose>
